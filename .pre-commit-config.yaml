@@ -13,7 +13,7 @@ repos:
       - id: "check-toml"
 
   - repo: https://github.com/psf/black
-    rev: 25.1.0
+    rev: 22.12.0
     hooks:
       - id: black
         files: &files '^(glQiwiApi|tests|examples|benchmarks|docs)'
@@ -31,6 +31,6 @@ repos:
       - id: sync_with_poetry
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.9.7
+    rev: v0.0.189
     hooks:
       - id: ruff
